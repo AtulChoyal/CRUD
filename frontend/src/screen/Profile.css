@@ -1,0 +1,163 @@
+.main {
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    /* align-items: center; */
+    align-content: flex-start;
+    float: left;
+    width: 100%;
+    height: 92vh;
+    margin: 0;
+    padding: .5%;
+}
+
+.first {
+    width: 29.5%;
+    /* width: 20rem; */
+    /* margin-top: 10%;
+    margin-bottom: 3%;*/
+    margin-right: 0.5%;
+    /* height: 90%; */
+    border: 2px solid black;
+    text-align: center;
+    align-items: center;
+    /* color: red; */
+}
+
+.first Img {
+    margin-top: 1%;
+    height: 50%;
+    width: 80%;
+    border-radius: 50%;
+    border: 2px solid blue;
+}
+
+.first Button {
+    width: 60%;
+    margin: 5%;
+}
+
+/* .second {
+    width: 70%;
+    height: 90%;
+    border: 2px solid black;
+    align-items: center;
+} */
+
+
+.Registretion {
+
+    width: 70%;
+    /* height: 90%; */
+    border: 2px solid black;
+    border-radius: 10px;
+    align-items: center;
+    background-color: #cbe6fd;
+    display: flex;
+    justify-content: center;
+}
+
+/* .Login {
+    background-color: rgb(113, 248, 41);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+} */
+
+.userForm {
+    height: 95%;
+    background-color: white;
+    width: 90%;
+    min-height: 300px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0, 0.065);
+    border-radius: 15px;
+    padding: 5px 5px;
+
+
+}
+
+.spangender {
+    margin-right: 15%;
+}
+
+.userForm img {
+    width: 35px;
+    height: 35px;
+}
+
+.userForm h2 {
+    color: rgb(252, 9, 191);
+    text-align: center;
+}
+
+.userForm label {
+    height: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.userForm span {
+    color: #4829f8;
+    font-weight: bold;
+    text-align: center;
+    width: 20%;
+}
+
+.gm {
+    color: green;
+}
+
+.gf {
+    color: red;
+}
+
+.userForm label input:not(input[type="radio"], input[type="checkbox"]),
+.userForm label select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    outline: none;
+}
+
+.userForm label input[type="radio"],
+.userForm label input[type="checkbox"] {
+    margin: 0;
+}
+
+.submitBtn {
+    font-size: 150%;
+    background-color: rgb(175, 4, 161);
+    padding: 0;
+    border: 0;
+    height: 12%;
+    width: 50%;
+    cursor: pointer;
+    font-weight: bold;
+    /* margin-left: 25%; */
+    border-radius: 50px;
+    border: 3px solid black;
+}
+
+.Registretion .mainImg {
+    width: 15%;
+    height: 15%;
+
+}
+
+.small {
+    width: 80%;
+    height: 60%;
+    background-color: azure;
+    align-items: center;
+    text-align: center;
+    padding-top: 10%;
+    border-radius: 5%;
+}
+
+/* .Registretion .spangender .inputRadio {
+    height: 5%;
+} */

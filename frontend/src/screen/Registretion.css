@@ -1,0 +1,91 @@
+.Registretion {
+    background-color: #dceaf7;
+    /* height: 100vh; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.Login {
+    background-color: #73d4fa;
+    height: 92vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.userForm {
+    background-color: white;
+    width: 50%;
+    min-height: 300px;
+    box-shadow: 1px 1px 8px rgba(0, 0, 0, 0, 0.065);
+    border-radius: 15px;
+    padding: 20px 10px;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.spangender {
+    margin-right: 150px;
+}
+
+.userForm img {
+    width: 35px;
+    height: 35px;
+}
+
+.userForm h2 {
+    color: rgb(252, 9, 191);
+    text-align: center;
+}
+
+.userForm label {
+    display: flex;
+    align-items: center;
+}
+
+.userForm span {
+    color: #4829f8;
+    font-weight: bold;
+    text-align: center;
+}
+
+.gm {
+    color: green;
+}
+
+.gf {
+    color: red;
+}
+
+
+.userForm label input:not(input[type="radio"], input[type="checkbox"]),
+.userForm label select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    outline: none;
+}
+
+.userForm label input[type="radio"],
+.userForm label input[type="checkbox"] {
+    margin: 10px;
+}
+
+.submitBtn {
+    font-size: 30px;
+    background-color: rgb(175, 4, 161);
+    padding: 0;
+    border: 0;
+    width: 50%;
+    cursor: pointer;
+    font-weight: bold;
+    margin-left: 25%;
+    border-radius: 50px;
+    border: 3px solid black;
+}
